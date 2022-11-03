@@ -1,0 +1,65 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:goldenrod;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+
+button {
+    width:40px;
+    padding:5px;
+}
+
+.double-size{
+    width: 84px;
+}
+
+
+.buttons{
+    gap:20px;
+}
+
+.previous-number{
+    display: flex;
+    justify-content: end;
+    margin:4px 0px;
+    font-size:medium;
+    color:darkgray;
+}
+
+.current-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 0px;
+    font-size:larger;
+    font-weight:500;
+}
+
+.display {
+    height: 60px;
+    border: 4px solid;
+    border-color:rgb(31, 184, 11);
+    margin-bottom: 16px;
+    background-color: white;
+}
+
+.row{
+    margin-bottom:8px;
+}
+
+
+.calculator{
+    padding:8px;
+    border: 2px solid;
+    border-color:beige;
+    background-color:grey;
+}
