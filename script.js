@@ -83,7 +83,6 @@ function handleOperator(op) {
             previousNumberDisplay.textContent = `${previousNumber} ${operator}`;
             currentNumberDisplay.textContent = currentNumber;
         }else { 
-            // caz pentru (previousNumber !== "" && result === "")
             operator = op;
             previousNumber = Number(result);
             currentNumber = "";
